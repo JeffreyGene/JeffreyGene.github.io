@@ -1,0 +1,52 @@
+﻿<!DOCTYPE HTML>
+<html lang="us-EN">
+<head>
+    <meta charset = "UTF-8">
+    <title>Maze Game</title>
+    <script src = "mazeGame.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "mazeGame.css">
+</head>
+<body onload ="initialize();">
+    <div id = "title">
+        <h1>Maze Game</h1>
+    </div>
+    <div id = "maze">
+        <div id="curHighScore"></div><div id="curTime"></div>
+        <canvas id="canvas" width="1000" height="1000"></canvas>
+    </div>
+    <div id = "main-menu">
+        <h2>Main Menu</h2>
+        <div id="new-game">
+            <h3>New Game</h3>
+            <p>Click on a maze size to start a new game. 
+                The game timer will start once you move out of the starting position.</p>
+            <ul>
+                <li><button onclick="newGame(5);"> 5x5 </button></li>
+                <li><button onclick="newGame(10);">10x10</button></li>
+                <li><button onclick="newGame(15);">15x15</button></li>
+                <li><button onclick="newGame(20);">20x20</button></li>
+            </ul>
+        </div>
+        <div id = "controls">
+            <p> </p>
+            <h3>Controls</h3>
+            <ul>
+                <li>h - Hint Toggle</li>
+                <li>b - Breadcrumbs Toggle</li>
+                <li>p - Path to Finish Toggle</li>
+                <li>y - Score Toggle</li>
+            </ul>
+        </div>
+        <div>
+            <h3>High Scores</h3>
+            <div id="high-scores">
+
+            </div>
+        </div>
+        <div id="credits">
+            <h3>Credits</h3>
+            <p>Developed by Jeffrey Heilbut</p>
+        </div>
+    </div>
+</body>
+</html>

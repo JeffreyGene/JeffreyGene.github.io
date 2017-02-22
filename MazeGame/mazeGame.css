@@ -1,0 +1,37 @@
+#canvas {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#title {
+    width: 100%;
+    text-align: center;
+}
+
+#main-menu {
+    float: left;
+    border-style: solid; 
+    width: 330px;
+}
+
+#curHighScore {
+    float: left;
+    width: 50%;
+
+}
+
+#curTime {
+    float: left;
+    width: 20%;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
