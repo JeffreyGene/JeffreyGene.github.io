@@ -1,0 +1,33 @@
+﻿<!DOCTYPE HTML>
+<html lang="us-EN">
+<head>
+    <meta charset = "UTF-8">
+    <title>Breakout</title>
+    <script src = "particleSystem.js"></script>
+    <script src = "graphics.js"></script>
+    <script src = "gameModel.js"></script>
+    <script src = "input.js"></script>
+    <script src = "breakout.js"></script>
+    <link rel = "stylesheet" type = "text/css" href = "breakout.css">
+</head>
+<body onload ="initialize();">
+    <div id = "title">
+        <h1>Breakout</h1>
+    </div>
+    <div id = "main-menu">
+        <canvas id="canvasMenu" width="1000" height="1000" border="solid"></canvas>
+    </div>
+    <div id = "new-game">
+        <canvas id="canvasTop" width="1000" height="50" border="solid"></canvas>
+        <canvas id="canvas" width="1000" height="500" border="solid"></canvas>
+        <canvas id="canvasBottom" width="1000" height="50" border="solid"></canvas>
+    </div>
+    <div id = "high-scores">
+        <button id='resetButton' onclick="MyGame.clearHighScores();">Clear High Scores</button>
+    </div>
+    <div id = "credits">
+        <h2>Credits</h2>
+        <p>Developed by: Jeffrey Heilbut</p>
+    </div>
+</body>
+</html>

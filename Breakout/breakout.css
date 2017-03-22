@@ -1,0 +1,34 @@
+#title {
+    width: 100%;
+    text-align: center;
+}
+#main-menu {
+    width: 100%;
+    text-align: center;
+}
+#canvas {
+    border-style: solid;
+}
+#canvasMenu {
+    border-style: solid;
+    width: 100%;
+    height: 100%;
+}
+#canvasTop {
+    border-style: solid;
+}
+#canvasBottom {
+    border-style: solid;
+}
+#new-game {
+    text-align: center;
+    display: none;
+}
+#high-scores {
+    display: none;
+    text-align: center;
+}
+#credits {
+    display: none;
+    text-align: center;
+}
