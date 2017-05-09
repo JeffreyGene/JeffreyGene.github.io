@@ -4,6 +4,6 @@ h1 {
 h2 {
     text-align: center;
 }
-body {
-    background-color: blue;
+html, body{
+    background-color: cyan;
 }
