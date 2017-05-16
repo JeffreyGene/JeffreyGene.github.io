@@ -56,3 +56,6 @@ a:hover, a:active {
 #mainPage {
     color: black;
 }
+img {
+    float: left;
+}
