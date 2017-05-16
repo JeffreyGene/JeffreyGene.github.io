@@ -51,6 +51,8 @@ a:hover, a:active {
 }
 #aboutMe {
     background-color: #fcf400;
-    color: black;
     padding: 14px;
+}
+#mainPage {
+    color: black;
 }
